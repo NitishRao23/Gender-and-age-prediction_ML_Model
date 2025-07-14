@@ -57,6 +57,8 @@ Classification Report (Precision, Recall, F1-Score)
 
 **Results
 **
+
+
 Each algorithm is trained and evaluated using cross-validation on the training set and tested on the hold-out set. Below is an example result:
 
 Nearest Neighbors: 0.850000 (0.078927)
@@ -76,5 +78,7 @@ pip install pandas numpy seaborn matplotlib scikit-learn
 python dna_classifier.py
 
 **Conclusion **
+
+
 The dataset is relatively small (106 samples), so results may not generalize well.
 Further improvements can include deep learning models or augmenting the dataset with synthetic sequences.
